@@ -6,6 +6,14 @@ A quick and dirty RRDP downloader that keeps history of all deltas pointed by a 
 
 Each delta is downloaded every time the script is run, as the goal is to detect unwanted changes in the deltas.
 
+## Requirements and installation
+
+Requirements:
+- A reasonably recent python (3.8+)
+- poetry
+
+Other dependencies will be installed by poetry.
+
 ## Usage
 
 ### Download a repository
