@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rrdp-historian"
+version = "0.1.0"
+description = ""
+authors = ["Carlos Martinez <carlos@cagnazzo.uy>"]
+readme = "README.md"
+packages = [{include = "rrdp_historian"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+xmltodict = "^0.13.0"
+fire = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
